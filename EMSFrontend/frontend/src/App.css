@@ -1,0 +1,156 @@
+.App {
+  text-align: center;
+}
+
+body{
+  background-color: antiquewhite;
+}
+
+p{
+  font-size: large;
+  font-weight: bold;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.table-center{
+  align-items: center;
+  display: flex;
+  justify-content: center;  
+}
+
+table{
+  width: 95%;
+  border-collapse: collapse;
+  padding: 10px;
+}
+
+th{
+  background-color: #61dafb;
+}
+
+td{
+  background-color: aliceblue;
+}
+
+td, th{
+  padding: 8px;
+}
+
+.error {
+  margin-top: 35px;
+  font-size: 11px;
+  color: rgba(241, 16, 16, 0.74);
+  font-weight: bold;
+  position: absolute;
+  text-align: right;
+  margin-left: 480px;
+}
+
+button{
+  text-align: center;
+  color: white;
+  padding: 5px;
+  width: 140px;
+  height: 40px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  transition: 0.2s ease-in-out;
+  align-items: center;
+  font-weight: bold;
+  font-size: medium;
+}
+
+.add-employee{
+  margin-left: 33px;
+  margin-bottom: 10px;
+  background-color: #002ab3;
+  
+  &:hover{
+    background-color: rgb(70, 8, 243);
+  }
+}
+
+.add-button{
+  margin-bottom: 10px;
+  background-color: #002ab3;
+  
+  &:hover{
+    background-color: rgb(70, 8, 243);
+  }
+}
+
+.delete-button{
+  background-color:rgb(206, 11, 11);
+  
+  &:hover{
+    background-color: #ff0000;
+  } 
+}
+
+.update-button{
+  background-color:rgb(15, 167, 1);
+  
+  &:hover{
+    background-color: #00ff15;
+  } 
+}
+
+.container{
+  border: 2px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 50%;
+  margin-top: 150px;
+}
+
+.input-field{
+  max-width: 90%;
+  padding: 8px;
+}
+
+.form-group{
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.button-container{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 20px;
+}
+
+.button-table-container{
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 0px;
+}
+
+label{
+  margin-left: 10px;
+}
